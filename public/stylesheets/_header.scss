@@ -1,0 +1,77 @@
+$bkgnd_default: rgba(0, 0, 0, 0.5);
+$font_default: 'Audiowide', cursive;
+
+
+#headerWrap {
+    text-align: center;
+    background-color: $bkgnd_default;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#iconWrap {
+    position: fixed; 
+}
+
+.icon {
+    height: 43px;
+    width: 43px;
+    border-radius: 30px;
+    margin: 3px 3px;
+    display: inline-block;
+}
+
+#facebook {
+    background-image: url("/images/facebook.png ");
+    background-size: cover;
+    // background: red;
+}
+
+#instagram {
+    background-image: url("/images/instagram.png");
+    background-size: cover;
+}
+
+#twitter {
+    background-image: url("/images/twitter.png ");
+    background-size: cover;
+}
+
+
+nav {
+    text-align: center;
+    font-size: 20px;
+    // background: hsla(0, 0%, 0%, 0.333);
+    padding: 15px;
+    // position: fixed;
+    // top: 0px;
+    // left: 0;
+    // right: 0;
+}
+
+li {
+    display: inline;
+    margin: 0 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(255, 255, 0)
+}
+
+#logo {
+    color: yellow;
+    background: none;
+    position: absolute;
+    top: 500px;
+    left: 0;
+    right: 0;
+    font-size: 60px;
+    text-shadow: 2px 2px 2px black;
+    
+}
